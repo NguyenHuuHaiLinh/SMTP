@@ -13,8 +13,8 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static string username = "nahaka9901@gmail.com";
-        static string pass = "pewdiepie2603";
+        static string username = "";
+        static string pass = "";
         private class IgnoreBadCert : ICertificatePolicy
         {
             public bool CheckValidationResult(ServicePoint sp,
